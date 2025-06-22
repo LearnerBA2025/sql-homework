@@ -36,9 +36,6 @@ In the dialog box, type SchoolDB as the database name.
 Click OK to create the database.
 
 5. Write and execute a query to create a table called Students with columns: StudentID (INT, PRIMARY KEY), Name (VARCHAR(50)), Age (INT).
-sql
-Copy
-Edit
 CREATE TABLE Students (
     StudentID INT PRIMARY KEY,
     Name VARCHAR(50),
@@ -95,9 +92,6 @@ COMMIT;
 ROLLBACK;
 
 8. Write a query to insert three records into the Students table.
-sql
-Copy
-Edit
 INSERT INTO Students (StudentID, Name, Age)
 VALUES
 (1, 'Emma', 19),
